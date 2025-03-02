@@ -1,0 +1,110 @@
+let x = 10;
+let y = 20;
+let z = 30;
+let result = 0;
+
+let counter_1 = 0;
+let _temp = 100;
+let total_sum = 0;
+
+let a = 5 + 3;
+let b = 10 - 2;
+let c = 4 * 3;
+let d = 20 / 5;
+let complex = (10 + 5) * 2;
+let mixed = 10 + 5 * 2;
+let parenthesized = (10 + 5) * (8 - 3);
+
+x = 15;
+y = x + 5;
+z = x * y;
+result = (x + y) * z / 10;
+
+let formula = (x + y) * (z - 5) / 2;
+counter_1 = counter_1 + 1;
+_temp = _temp / 2;
+total_sum = x + y + z;
+
+if (x > y) {
+    print(x);
+    x = x + 1;
+}
+
+if (y <= x) {
+    print(y);
+    y = y * 2;
+}
+
+if (z == 30) {
+    print(z);
+    z = z + 10;
+}
+
+if (result != 0) {
+    print(result);
+    result = 0;
+}
+
+if (x > 10) {
+    if (y > 20) {
+        print(x + y);
+    }
+}
+
+while (counter_1 < 10) {
+    print(counter_1);
+    counter_1 = counter_1 + 1;
+}
+
+while (x < y + z) {
+    x = x + 5;
+    print(x);
+}
+
+while (a < 20) {
+    a = a + 1;
+    while (b < 15) {
+        b = b + 1;
+        print(a * b);
+    }
+}
+
+let i = 0;
+while (i < 5) {
+    let temp = i * 2;
+    print(temp);
+    if (temp > 5) {
+        print(temp + 10);
+    }
+    i = i + 1;
+}
+
+let complex_calc = x + y * z - (a + b) * c / d;
+print(complex_calc);
+
+let outer = 100;
+if (outer > 50) {
+    let inner = 200;
+    outer = inner / 2;
+    print(outer);
+}
+
+if (x < y) { print(1); }
+if (x > y) { print(2); }
+if (x <= y) { print(3); }
+if (x >= y) { print(4); }
+if (x == y) { print(5); }
+if (x != y) { print(6); }
+
+let precedence_test = 2 + 3 * 4;
+print(precedence_test);
+
+let final_result = 0;
+let count = 1;
+while (count <= 10) {
+    if ((count / 2) * 2 == count) {
+        final_result = final_result + count;
+    }
+    count = count + 1;
+}
+print(final_result);
